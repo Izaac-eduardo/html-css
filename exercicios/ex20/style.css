@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(151, 241, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    dentro de html id= #
+     ex: html - h1 id= "principal" 
+     css -> h1#pricipal {}(pode ser usada somente em um elemento)
+    dentro dw html class = .
+     ex: html - h1 class "destaque" 
+     css -> .destaque {}(pode ser usada em varios elementos
+     */
+}
+h1 {
+    color: green;
+}
+h1#principal {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+}
+h2 {
+    color: rgb(72, 119, 72);
+}
+.basico {
+color: rgb(33, 77, 33);
+font-weight: bold;
+}
+.intermediario {
+color: rgb(197, 197, 83);
+}
+.avançado {
+color: rgb(238, 72, 72);
+}
+.destaque {
+    background-color: rgb(240, 240, 112);
+}

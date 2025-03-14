@@ -1,0 +1,105 @@
+@charset "UTF-8"
+body> {
+
+}
+@font-face {
+    font-family: 'idroid';
+    src: url("idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+header {
+    background-image:linear-gradient(to top,rgba(22, 90, 18, 0.671), rgb(47, 226, 172));
+    margin:auto;
+    padding: 0px 10px 10px 0px;
+  
+    
+}
+h1, h2 {
+    color: rgb(86, 138, 86);
+    text-align: auto;
+    font-size:x-large;
+    font-family: 'idroid';
+    padding: 10px 10px 10px 20px;
+}
+h1#principal {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 30px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
+    font-size:xx-large;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 50px 10px;
+    padding: 1px;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: rgb(0, 0, 0);
+    margin: 1px 1px 0px 1px;
+    padding: 10px 5px 1px 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: rgba(184, 241, 220, 0.938);
+}
+header > p {
+    color: rgba(255, 253, 253, 0.877);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    font-weight: bold;
+}
+body {
+    background-color: aquamarine;
+}
+main {
+    background-color: white;
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: inset;
+    
+}
+div {
+    background-color: rgb(200, 248, 224);
+    text-align: justify;
+    width: 500px;
+
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px #00000048;
+}
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: 10px;
+}
+iframe {
+    padding: 30px 20px 30px 20px;
+
+}
+section {
+    width: auto; 
+margin: 20px 0px 20px 0px;}
+.nomes {
+    color: #229e22;
+    font-weight:bolder;
+    font-style: normal;
+    text-decoration: none;
+}
+footer {
+    background-color: #134113;
+    height: 50px; }
+    footer > p {
+        text-align: center;
+        color: #ffffff;
+        padding: 10px;
+    }
