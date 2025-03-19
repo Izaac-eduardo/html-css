@@ -1,0 +1,117 @@
+ @charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap')
+;
+@font-face {
+  font-family: 'titulo';
+  src: url("PassionOne-Bold.ttf");
+  font-weight: normal; }
+
+  @font-face {
+    font-family: 'texto';
+    src: url("Sriracha-Regular.ttf");
+    font-weight: normal; }
+* {
+     font-family: texto ;
+}
+ header {
+    background-color: black;
+    margin:-22px -22px 20px -22px;
+    padding: 20px;
+
+ }
+  h1 {
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: titulo;
+   
+  }
+  h3 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    margin-bottom: 20px;
+    padding-bottom: 48px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+  }
+  p {
+    font-size: 1.1em;
+    height: 200px;
+    width: 190px;
+    margin: 40px 0px 60px 10px;
+    padding: 40px 0px 60px 10px; 
+    line-height: 30px;
+    font-family: texto;
+    font-weight: bolder;
+  }
+
+  #t2 p{
+    height: 270px;
+    width: 200px;
+    margin: 40px 0px 60px 10px;
+    padding: 40px 0px 50px 10px; 
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.274);
+
+  }
+  /*#t1 {
+    height: 200px;
+    width: 150px;
+    margin: 40px 0px 40px 10px;
+    padding: 40px 0px 60px 10px; 
+    line-height: 30px;
+  }
+    */
+
+  #t2 {
+    
+    margin: 40px 0px 40px 10px;
+    padding: 40px 0px 60px 10px; 
+    line-height: 30px;
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    width: 100% ;
+    height: 400px;
+    background-position: right, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #t5 {
+    margin: 40px 0px 40px 10px;
+    padding: 40px 0px 60px 10px; 
+    background-image: url(imagens/background002.jpg);
+    width: 100% ;
+    height: 400px;
+    background-position: center, center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #t5 p{
+    height: 290px;
+    width: 200px;
+    margin: 40px 0px 60px 10px;
+    padding: 40px 0px 50px 10px; 
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.274);}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    margin: 20px -20px -20px -20px;
+    margin-top: 20px;
+}
