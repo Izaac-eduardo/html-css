@@ -13,13 +13,12 @@
 * {
      font-family: texto ;
 }
-body {
-  max-width: 500px;
-}
+
  header {
     background-color: black;
     margin:-22px -22px 20px -22px;
     padding: 20px;
+    text-align: center;
 
  }
   h1 {
